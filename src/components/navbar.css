@@ -1,0 +1,83 @@
+.LeftC{
+    border-right: 2px solid white ;
+    color: white;
+    margin-top: 20px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+ 
+
+ 
+
+  .Left-items{
+      position: relative;
+      top: 10px;
+      
+  }
+  .Mid-left{
+    font-size: calc(10px + 2.5vmin);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    
+  } 
+  
+  .Left-end{
+    
+    box-sizing: border-box;
+    font-size: larger;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px; 
+    background: #1C1D21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+  }  
+
+  @media screen and (max-width: 780px ) {
+  
+    .LeftC{
+      border: none;
+      display: flex;
+      flex-direction: row;
+      box-sizing: border-box;
+      justify-content: space-between;
+      justify-content: space-around;
+      align-items:  flex-start;
+      border-bottom: 2px solid white;
+      margin-top: 10px;
+      height: 40px;
+
+    }
+
+    .Left-items{
+        display: flex;
+        top: 0px;
+    }
+
+    .Mid-left{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 30%;
+    }
+    
+    .Left-end{
+        display: flex;
+        height: 25px;
+        width: 25px;
+        bottom: 0px;
+        font-size: smaller;
+    }
+  }
+  
