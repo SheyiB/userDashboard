@@ -1,1 +1,2 @@
-#A User Interface "trade.png" implemented using React
+*
+A User Interface "trade.jpg" implemented using React*
